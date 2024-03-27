@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3073E44E2BB20F0D00D2E365 /* IMCCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3073E44D2BB20F0D00D2E365 /* IMCCalculatorUITests.swift */; };
+		3073E4502BB20F0D00D2E365 /* IMCCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3073E44F2BB20F0D00D2E365 /* IMCCalculatorUITestsLaunchTests.swift */; };
 		B1D760A725DBFE92000114F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D760A625DBFE92000114F6 /* AppDelegate.swift */; };
 		B1D760A925DBFE92000114F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D760A825DBFE92000114F6 /* SceneDelegate.swift */; };
 		B1D760AB25DBFE92000114F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D760AA25DBFE92000114F6 /* ViewController.swift */; };
@@ -18,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3073E4512BB20F0D00D2E365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D7609B25DBFE92000114F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D760A225DBFE92000114F6;
+			remoteInfo = IMCCalculator;
+		};
 		B1D760BA25DBFE93000114F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B1D7609B25DBFE92000114F6 /* Project object */;
@@ -28,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3073E44B2BB20F0D00D2E365 /* IMCCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMCCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3073E44D2BB20F0D00D2E365 /* IMCCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCCalculatorUITests.swift; sourceTree = "<group>"; };
+		3073E44F2BB20F0D00D2E365 /* IMCCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B1D760A325DBFE92000114F6 /* IMCCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMCCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D760A625DBFE92000114F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D760A825DBFE92000114F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3073E4482BB20F0D00D2E365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1D760A025DBFE92000114F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,11 +79,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3073E44C2BB20F0D00D2E365 /* IMCCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3073E44D2BB20F0D00D2E365 /* IMCCalculatorUITests.swift */,
+				3073E44F2BB20F0D00D2E365 /* IMCCalculatorUITestsLaunchTests.swift */,
+			);
+			path = IMCCalculatorUITests;
+			sourceTree = "<group>";
+		};
 		B1D7609A25DBFE92000114F6 = {
 			isa = PBXGroup;
 			children = (
 				B1D760A525DBFE92000114F6 /* IMCCalculator */,
 				B1D760BC25DBFE93000114F6 /* IMCCalculatorTests */,
+				3073E44C2BB20F0D00D2E365 /* IMCCalculatorUITests */,
 				B1D760A425DBFE92000114F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +103,7 @@
 			children = (
 				B1D760A325DBFE92000114F6 /* IMCCalculator.app */,
 				B1D760B925DBFE93000114F6 /* IMCCalculatorTests.xctest */,
+				3073E44B2BB20F0D00D2E365 /* IMCCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +135,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3073E44A2BB20F0D00D2E365 /* IMCCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3073E4552BB20F0D00D2E365 /* Build configuration list for PBXNativeTarget "IMCCalculatorUITests" */;
+			buildPhases = (
+				3073E4472BB20F0D00D2E365 /* Sources */,
+				3073E4482BB20F0D00D2E365 /* Frameworks */,
+				3073E4492BB20F0D00D2E365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3073E4522BB20F0D00D2E365 /* PBXTargetDependency */,
+			);
+			name = IMCCalculatorUITests;
+			productName = IMCCalculatorUITests;
+			productReference = 3073E44B2BB20F0D00D2E365 /* IMCCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B1D760A225DBFE92000114F6 /* IMCCalculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1D760CD25DBFE93000114F6 /* Build configuration list for PBXNativeTarget "IMCCalculator" */;
@@ -146,10 +194,14 @@
 		B1D7609B25DBFE92000114F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1170;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Eduardo Finotti";
 				TargetAttributes = {
+					3073E44A2BB20F0D00D2E365 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B1D760A225DBFE92000114F6;
+					};
 					B1D760A225DBFE92000114F6 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -174,11 +226,19 @@
 			targets = (
 				B1D760A225DBFE92000114F6 /* IMCCalculator */,
 				B1D760B825DBFE93000114F6 /* IMCCalculatorTests */,
+				3073E44A2BB20F0D00D2E365 /* IMCCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3073E4492BB20F0D00D2E365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1D760A125DBFE92000114F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +259,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3073E4472BB20F0D00D2E365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3073E4502BB20F0D00D2E365 /* IMCCalculatorUITestsLaunchTests.swift in Sources */,
+				3073E44E2BB20F0D00D2E365 /* IMCCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1D7609F25DBFE92000114F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +290,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3073E4522BB20F0D00D2E365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D760A225DBFE92000114F6 /* IMCCalculator */;
+			targetProxy = 3073E4512BB20F0D00D2E365 /* PBXContainerItemProxy */;
+		};
 		B1D760BB25DBFE93000114F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B1D760A225DBFE92000114F6 /* IMCCalculator */;
@@ -248,6 +322,53 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3073E4532BB20F0D00D2E365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natanael.swift.IMCCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMCCalculator;
+			};
+			name = Debug;
+		};
+		3073E4542BB20F0D00D2E365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natanael.swift.IMCCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMCCalculator;
+			};
+			name = Release;
+		};
 		B1D760CB25DBFE93000114F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -445,6 +566,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3073E4552BB20F0D00D2E365 /* Build configuration list for PBXNativeTarget "IMCCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3073E4532BB20F0D00D2E365 /* Debug */,
+				3073E4542BB20F0D00D2E365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B1D7609E25DBFE92000114F6 /* Build configuration list for PBXProject "IMCCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
