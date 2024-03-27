@@ -6,10 +6,4 @@ Este app faz o cáculo do IMC de uma pessoa em cima dos dados informados.
 
 
 -----------------
-## Clonar projeto
-
-````
-$ git clone https://github.com/qazando/IMCCalculator.git
-````
-
-#### Fique a vontade para abrir PR.
+O Projeto foi feito pelo canal do youtube qazando como uma pratica de criar e testar a primeira automacao de teste com Swift + XCUITest (FrameWork de teste da Apple), segue a pasta de XCUITest para visualizar a automacao simples porém que serve de aprendizado e base pra futuros projetos.
